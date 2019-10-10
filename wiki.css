@@ -125,19 +125,18 @@ h5 {
   margin-right: 5%;
   align-items: center;
 }
-.bloque p{
+
+.bloque p {
   font-size:x-large; 
   padding-top: center;
   text-align: justify;
-
 }
+
 .bloque img {
   width: 100%;
-
-
 }
 
-.subtituloa{
+.subtituloa {
   text-align: center;
   font-size:xx-large; 
   background-color: #944101;
@@ -146,22 +145,19 @@ h5 {
   border-radius: 25px;
   width: 80%;
   margin-left:12%;
-
 }
-.guia{
+
+.guia {
   background-color: #DB6002;
   border: 10cm;
   box-shadow: 5px 10px #888888;
   border-radius: 25px;
-  margin-left: 12%;
-  width: 80%;
-}
-.guia h6{
   margin-left: 10%;
-  text-align: justify;
-  font-size:xx-large;
-
+  width: 80%;
+  padding-left: 10px;
 }
+
+
 
 /* -------------------- */
 /*---------------LABURPENA------------*/
@@ -215,58 +211,57 @@ h5 {
   .subtituloa{
     margin-left:15%;
     width: 70%;
-    }
- 
-
+  }
 }
 
 /* For DESKTOP: */
 @media only screen and (min-width: 768px) {
-      .col-1 {width: 8.33%;}
-      .col-2 {width: 16.66%;}
-      .col-3 {width: 25%;}
-      .col-4 {width: 33.33%;}
-      .col-5 {width: 41.66%;}
-      .col-6 {width: 50%;}
-      .col-7 {width: 58.33%;}
-      .col-8 {width: 66.66%;}
-      .col-9 {width: 75%;}
-      .col-10 {width: 83.33%;}
-      .col-11 {width: 91.66%;}
-      .col-12 {width: 100%;}
-    .guia{   width: 40%;
-      margin-left: 5%;
-      max-width: 300px;
-    }
-    .guia h6{
-      margin-left: 10%;
-      text-align: justify;
-      font-size:large;
-    
-    }
-    .subtituloa{
-      margin-left:35%;
-      width: 30%;
-      min-width: 400px;
-    }
-    .bloque p{
-      float: left;
-      width: 45%;
-      font-size:x-large; 
-      padding-top: center;
-      text-align: justify;
-    
-    }
-    .bloque img {
-      width: 35%;
-      float: right;
-    }
-    .bloque a{
-      float: right;
-      display: inline-block;
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+  .guia{   width: 40%;
+    margin-left: 5%;
+    max-width: 300px;
+  }
+  .guia h6{
+    margin-left: 10%;
+    text-align: justify;
+    font-size:large;
+  
+  }
+  .subtituloa{
+    margin-left:35%;
+    width: 30%;
+    min-width: 400px;
+  }
+  .bloque p{
+    float: left;
+    width: 45%;
+    font-size:x-large; 
+    padding-top: center;
+    text-align: justify;
+  
+  }
+  .bloque img {
+    width: 35%;
+    float: right;
+  }
+  .bloque a{
+    float: right;
+    display: inline-block;
 
-    }
+  }
 }
+
 footer img{
   align-content: center;
   padding: 10%;
